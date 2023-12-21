@@ -6,7 +6,9 @@ let izquierda = document.querySelector("#btnIzq");
 let derecha = document.querySelector("#btnDer");
 let current = 0;
 let certifTit = document.querySelector("#certificTit");
+let certifLogo = document.querySelector("#certifLogoImg");
 
+/*----FUNCION MENU MOVIL----*/
 
 btnMenu.addEventListener("click", () => {
 
@@ -17,6 +19,8 @@ btnCerrar.addEventListener("click", () => {
 
     menuMob.classList.remove("abrir");
 });
+
+/*----FUNCION GALERIA CERTIFICADO----*/
 
 function reset() {
 for (let i = 0; i < sliderimagenes.length; i++) {
@@ -42,17 +46,25 @@ sliderimagenes[current + 1].style.display = "block";
 current++;
 }
 
-function changeText() {
+function change() {
 
     if(current === 0) {
 
         certifTit.innerHTML = "Certificado AutoDesk -"
+        certifLogo.src = "../../assets/autodesk-3.png"
+        certifLogo.style.width = "15em";
+
     } else if (current === 1) {
     
         certifTit.innerHTML = "Certificado Cype -"
+        certifLogo.src = "../../assets/cype-2.png"
+        certifLogo.style.width = "6em";
+
     } else {
     
         certifTit.innerHTML = "Certificado ECIC -"
+        certifLogo.src = "../../assets/ecic-4.png"
+        certifLogo.style.width = "12em";
     }
 }
 
@@ -61,7 +73,7 @@ if (current === 0) {
   current = sliderimagenes.length;
 }
 slideLeft();
-changeText();
+change();
 });
 
 derecha.addEventListener("click", function () {
@@ -69,7 +81,7 @@ if (current === sliderimagenes.length - 1) {
   current = -1;
 }
 slideRight();
-changeText();
+change();
 });
 
 startSlide();

@@ -1,3 +1,8 @@
+main img {
+
+    width: 100%;
+}
+
 /*----POTENCIA----*/
 
 .potencia {
@@ -212,6 +217,7 @@
 
 .taller__content {
 
+    max-width: 20em;
     padding: 1em;
     border-radius: .6em;
     box-shadow: 1px 1px 5px 4px var(--gris-claro);
@@ -616,11 +622,6 @@
     width: 100%;
 }
 
-main img { 
-
-    width: 100%;
-}
-
 .galeria__conten p,
 .galeria__conten h4 {
 
@@ -645,6 +646,12 @@ main img {
 .galeria__flechas button img {
 
     width: 2em;
+}
+
+#certifLogoImg {
+
+    width: 15em;
+    margin-bottom: 1em;
 }
 
 /*----SUSCRIBETE----*/
