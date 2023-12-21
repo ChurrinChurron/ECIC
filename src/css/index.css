@@ -1,0 +1,1040 @@
+/*----POTENCIA----*/
+
+.potencia {
+
+    padding: 6em 1.5em;
+}
+
+.potencia__content {
+
+    display: flex;
+    flex-direction: column;   
+}
+
+.potencia__content h4 {
+
+    font-weight: 400;
+    color: var(--gris);
+}
+
+.potencia__content h2 {
+
+    font-size: 1.6em;
+    margin: .5em 0;
+    font-family: var(--tablant);
+    color: var(--azul);
+}
+
+.potencia__content p {
+
+    font-weight: 300;
+}
+
+.potencia__content > a {
+
+    display: inline-block;
+    width: 11.1em;
+    margin-top: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    padding: .5em;
+    border-radius: .3em;
+    color: var(--blanco);
+    background: var(--azul);
+    transition: .3s;
+}
+
+.potencia__content > a:hover {
+
+    background: var(--gris);
+}
+
+#splideCategorias {
+
+    margin-top: 5em;
+}
+
+.splide__arrow--prev,
+.splide__arrow--next,
+.splide__pagination {
+    
+    display: none;
+}
+
+#splideCategorias .splide__track {
+
+    padding: 1.5em;
+}
+
+#splideCategorias .splide__slide {
+
+    margin: 0 1em;
+    width: 20em !important;
+    border-radius: .4em;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 1px 4px 4px -2px var(--gris);
+}
+
+#splideCategorias .splide__slide img {
+
+    width: 3em;
+    margin-right: 1em;
+}
+
+/*----CONTRATO----*/
+
+.contratos {
+
+    margin: 0 1.5em 6em 1.5em;
+    padding: 3em;
+    border-radius: .8em;
+    background: var(--gris-claro);
+    box-shadow: 1px 4px 4px -2px var(--gris);
+}
+
+.contratos h2 {
+
+    font-size: 1.8em;
+    font-family: var(--tablant);
+    text-align: center;
+    color: var(--azul);
+}
+
+.contratos p {
+
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 300;
+    color: var(--gris);
+}
+
+.contratos__img {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+.contratos__img img {
+
+    width: 10em;
+}
+
+.contratos__img img:nth-child(3) {
+
+    width: 6em;
+}
+
+/*----INVERSION----*/
+
+.inversion {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 0 1.5em;
+}
+
+.inversion__texto h2 {
+
+    text-align: center;
+    font-size: 1.6em;
+    font-family: var(--tablant);
+    color: var(--gris);
+}
+
+.inversion__texto p {
+
+    margin: 1em 0;
+    font-weight: 300;
+    text-align: center;
+    color: var(--gris);
+}
+
+.inversion__texto a {
+
+    display: block;
+    width: 6.6em;
+    margin: 1.5em auto 0 auto;
+    font-weight: 300;
+    text-decoration: none;
+    padding: .8em;
+    border-radius: .3em;
+    color: var(--blanco);
+    background: var(--azul);
+    transition: .3s;
+}
+
+.inversion img {
+
+    max-width: 30em;
+    margin: 4em auto;
+}
+
+/*----WEBINARS----*/
+
+.webinars {
+
+    padding: 0 1.5em;
+}
+
+.webinars h2 {
+
+    text-align: center;
+    font-family: var(--tablant);
+    color: var(--azul);
+}
+
+.webinars p {
+
+    margin-top: 1em;
+    text-align: center;
+    color: var(--gris);
+    font-weight: 300;
+}
+
+.webinars__taller {
+
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.taller__content {
+
+    padding: 1em;
+    border-radius: .6em;
+    box-shadow: 1px 1px 5px 4px var(--gris-claro);
+}
+
+.taller__video {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.taller__video::after {
+
+    content: url(../../assets/play.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.taller__content p {
+
+    text-align: left;
+    font-size: .9em;
+}
+
+.taller__content a {
+
+    display: block;
+    width: 7.6em;
+    margin: 1.5em 0 0 0;
+    font-weight: 300;
+    text-decoration: none;
+    padding: .8em;
+    border-radius: .3em;
+    color: var(--blanco);
+    font-size: .9em;
+    background: var(--azul);
+    transition: .3s;
+}
+
+.webinars > a {
+
+    display: block;
+    width: 11em;
+    text-align: center;
+    margin: 3em auto 0 auto;
+    font-weight: 300;
+    text-decoration: none;
+    padding: .6em;
+    border-radius: .3em;
+    color: var(--blanco);
+    font-size: .9em;
+    background: var(--azul);
+     transition: .3s;
+}
+
+/*----CURSOS----*/
+
+.cursos {
+
+    margin: 6em 1.5em;
+    padding: 1.5em;
+    border-radius: .8em;
+    background: var(--gris-claro);
+}
+
+.cursos h3 {
+
+    text-align: center;
+    font-family: var(--tablant);
+    color: var(--azul);
+}
+
+.cursos h2 {
+
+    margin: .5em;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: var(--tablant);
+    color: var(--azul)
+}
+
+.cursos > p {
+
+    text-align: center;
+    font-weight: 300;
+
+}
+
+#splideCursos {
+
+    margin-top: 3em;
+}
+
+#splideCursos .plide__track {
+
+    padding: 1em;
+}
+
+#splideCursos .splide__slide {
+
+    margin: 0 1em;
+    width: 17em !important;
+    border-radius: .4em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    box-shadow: 1px 4px 4px 0 var(--gris-claro);
+    background: var(--blanco);
+}
+
+#splideCursos .splide__slide .curso__img {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#splideCursos .splide__slide .curso__img img {
+
+    transition: .3s;
+}
+
+#splideCursos .splide__slide .curso__img::after {
+
+    content: "Nuevo";
+    position: absolute;
+    top: .5em;
+    left: .5em;
+    padding: .5em;
+    border-radius: .4em;
+    font-size: .8em;
+    background: var(--azul);
+    color: var(--blanco);
+}
+
+#splideCursos .splide__slide h3 {
+
+    margin-top: 1em;
+    font-size: 1.1em;
+    text-align: left;
+    font-weight: 400;
+}
+
+#splideCursos .splide__slide .curso__horas {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+    font-size: .8em;
+    color: var(--gris);
+}
+
+#splideCursos .splide__slide > p {
+
+    font-size: .8em;
+    color: var(--gris);
+    color: var(--gris);
+}
+
+#splideCursos .splide__slide .mas {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 1em;
+}
+
+#splideCursos .splide__slide .mas h3 {
+
+    padding: .4em;
+    border-radius: .4em;
+    font-size: .950em;
+    font-family: var(--vietnam);
+    background: var(--amarillo);
+    color: var(--blanco);
+}
+
+#splideCursos .splide__slide .mas a {
+
+    text-decoration: none;
+    transition: .3s;
+    font-weight: 500;
+    color: var(--azul);
+}
+
+#splideCursos .splide__slide:hover .curso__img img {
+
+    scale: 1.080;
+}
+
+#splideCursos .splide__slide:hover .mas a {
+
+    color: var(--gris);
+}
+
+/*----NUMEROS----*/
+
+.numeros {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3em;
+    padding: 0 1.3em;
+}
+
+.numeros__texto h3 {
+
+    font-size: 2.8em;
+    font-family: var(--tablant);
+    color: var(--azul);
+}
+
+.numeros__texto p {
+
+    color: var(--gris);
+}
+
+/*--NOSOTROS--*/
+
+.nosotros {
+
+    margin: 6em 0;
+    padding: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros img {
+
+    max-width: 30em;
+}
+
+.nosotros__content {
+
+    margin-top: 4em;
+}
+
+.nosotros__content h2 {
+
+    margin-bottom: .5em;
+    text-align: center;
+    font-family: var(--tablant);
+    color: var(--azul);
+}
+
+.nosotros__content p {
+
+    color: var(--gris);
+}
+
+.nosotros__ventajas {
+
+    display: grid;
+    justify-items: center;
+    gap: 3em;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 4em;
+}
+
+.ventajas__note {
+
+    position: relative;
+    padding: 2em 1em;
+    max-width: 15em;
+    border-radius: .4em;
+    background: var(--gris-claro);
+    box-shadow: 0px 4px 7px -3px var(--gris);
+}
+
+.ventajas__note::after {
+
+    position: absolute;
+    top: -1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    content: url(../../assets/pin.png);
+
+}
+
+.ventajas__note h3 {
+
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.ventajas__note h3 span {
+
+    font-weight: 700;
+    color: var(--azul);
+}
+
+/*----CERTIFICACIONES----*/
+
+.certif {
+
+    padding: 0 1.3em;
+    background: url(../../assets/certificaciones.webp) no-repeat;
+    background-position: center center;
+}
+
+.certif__convenios {
+
+    margin: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .6em;
+    background: var(--blanco);
+    box-shadow: 0px 4px 7px -3px var(--gris);
+}
+
+.convenios__texto {
+
+    text-align: center;
+}
+
+.convenios__texto h2 {
+
+    margin-bottom: .5em;
+    font-family: var(--tablant);
+    color: var(--azul);
+}
+
+#splideConvenios { 
+
+    margin-top: 2em;
+    width: 70%;
+}
+
+#splideConvenios .splide__slide {
+
+    margin: 0 2em;
+    width: 7em !important;
+    border-radius: .4em;
+}
+
+#splideConvenios .splide__slide img {
+
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+#splideConvenios .splide__slide img:hover {
+
+    filter: grayscale(0);
+}
+
+.certif__galeria {
+
+    margin-top: 5em;
+    text-align: center;
+}
+
+.certif__galeria h2 {
+
+    font-family: var(--tablant);
+    color: var(--gris);
+}
+
+.certif__galeria h3 {
+
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+.galeria__box {
+
+    margin-top: 4em;
+}
+
+.galeria__boxInt {
+
+    margin: 2em auto 0 auto;
+    max-width: 34em;
+}
+
+.galeria__slider {
+
+    overflow: hidden;
+}
+
+.galeria__img {
+
+    display: flex;
+    width: 100%;
+    transition: .3s;
+}
+
+.galeria__img img {
+
+    width: 100%;
+}
+
+main img { 
+
+    width: 100%;
+}
+
+.galeria__conten p,
+.galeria__conten h4 {
+
+    color: var(--azul);
+}
+
+.galeria__flechas { 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.galeria__flechas button {
+
+    border: none;
+    background: transparent;
+}
+
+.galeria__flechas button img {
+
+    width: 2em;
+}
+
+/*----SUSCRIBETE----*/
+
+.suscribete {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em auto;
+    border-radius: .6em;
+    padding: 2em;
+    background: url(../../assets/suscribete.webp) no-repeat;
+    background-size: cover;
+    max-width: 55em;
+}
+
+.suscribete h3 {
+
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--tablant);
+}
+
+.suscribete h3 span {
+
+    font-weight: 700;
+    color: var(--azul);
+}
+
+.suscribete form {
+
+    position: relative;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+input[type=email] {
+
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: .7em .7em .7em 6em;
+    border-radius: .5em;
+    font-size: 1em;
+    box-shadow: 0px 0px 5px -2px var(--gris);
+    font-family: var(--tablant);
+    color: var(--gris);
+}
+
+input[type=submit] {
+
+    position: absolute;
+    left: 0;
+    border: none;
+    padding: .650em 1em;
+    font-size: 1.050em;
+    border-radius: .4em;
+    background: var(--gris);
+    color: var(--blanco);
+    font-family: var(--tablant);
+    cursor: pointer;
+}
+
+/*----EMPODERATE----*/
+
+.empoderar {
+
+    margin: 5em auto;
+    padding: 2em 2em 0 2em;
+    border-radius: .6em;
+    max-width: 55em;
+    background: var(--azul-op);
+}
+
+.empoderar__texto h3 {
+
+    text-align: center;
+    color: var(--gris);
+}
+
+.empoderar__texto a {
+
+    display: block;
+    width: 9em;
+    text-align: center;
+    margin: 2em auto 0 auto;
+    font-weight: 300;
+    text-decoration: none;
+    padding: .6em;
+    border-radius: .3em;
+    color: var(--blanco);
+    font-size: .9em;
+    background: var(--azul);
+    transition: .3s;
+}
+
+.empoderar__texto a:hover {
+
+    background: var(--gris);
+}
+
+.empoderar img {
+
+    display: block;
+    width: 100%;
+    max-width: 30em;
+    margin: 3em auto 0 auto;
+}
+
+@media screen and (width>=1024px) {
+    
+    /*----POTENCIA----*/
+
+    .potencia {
+
+        padding: 6em 1.5em;
+    }
+
+    .potencia__content {
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;   
+    }
+
+
+    .potencia__content h2 {
+
+        font-size: 1.7em;
+    }
+
+    .potencia__content > a {
+
+        padding: .8em .5em;
+    }
+
+    #splideCategorias {
+
+        margin-top: 3.5em;
+    }
+
+    #splideCategorias .splide__slide {
+
+        width: 17em !important;
+    }
+
+    /*----CONTRATO----*/
+
+    .contratos {
+
+        max-width: 60em;
+        margin: 0 auto 6em auto;
+    }
+
+    .contratos__img {
+
+        flex-direction: row;
+        margin-top: 3em;
+    }
+
+    /*----INVERSION----*/
+
+    .inversion {
+
+        flex-direction: row;
+        max-width: 65em;
+        margin-bottom: 2em;
+        margin: 0 auto 2em auto;
+        padding: 0 1.5em;
+    }
+
+    .inversion__texto h2 {
+
+        text-align: left;
+        font-size: 1.8em;
+    }
+
+    .inversion__texto p {
+
+        text-align: left;
+    }
+
+    .inversion__texto a {
+
+        margin: 1.5em 0 0 0;
+    }
+
+    .inversion img {
+
+        max-width: 38em;
+        margin: 4em auto;
+    }
+
+    /*----WEBINARS----*/
+
+    .webinars__taller {
+
+        flex-direction: row;
+    }
+
+    .taller__content {
+
+        max-width: 18em;
+    }
+
+    /*----CURSOS----*/
+
+    .cursos {
+
+        padding: 4em 1.5em;
+    }
+
+    #splideCursos .splide__slide {
+
+        margin: 0 2em;
+    }
+
+    /*----NUMEROS----*/
+
+    .numeros {
+
+        flex-direction: row;
+        align-items: baseline;
+        text-align: left;
+        gap: 8em;
+    }
+
+    .numeros__texto h3 {
+
+        font-size: 3.5em;
+    }
+
+    .numeros__texto p {
+
+        font-size: 1.3em;
+        color: var(--gris);
+    }
+
+    /*--NOSOTROS--*/
+
+    .nosotros {
+
+        flex-direction: row;
+        margin-top: 10em;
+    }
+
+    .nosotros img {
+
+        max-width: 38em;
+    }
+
+    .nosotros__content {
+
+        margin-top: 0;
+        position: relative;
+        right: 4em;
+    }
+
+    .nosotros__content h2 {
+
+        margin-bottom: .5em;
+        margin-left: 2em;
+        text-align: left;
+    }
+
+    .nosotros__content p {
+
+        margin-left: 2.8em;
+    }
+
+    .nosotros__ventajas {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*----CERTIFICACIONES----*/
+
+    .certif {
+
+        padding: 0 1.3em;
+    }
+
+    .certif__convenios {
+
+        flex-direction: row;
+        max-width: 65em;
+        margin: 0 auto;
+    }
+
+    .convenios__texto {
+
+        text-align: left;
+        margin-right: 2em;
+    }
+
+    #splideConvenios { 
+
+        margin-top: 0;
+        width: 70%;
+    }
+
+    #splideConvenios .splide__slide {
+
+        margin: 0 1em;
+        width: 5em !important;
+    }
+
+    .galeria__box {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 55em;
+        margin: 3em auto 0 auto;
+    }
+
+    .galeria__boxInt {
+
+        margin: 2em auto 0 auto;
+        max-width: 30em;
+    }
+
+    /*----SUSCRIBETE----*/
+
+    .suscribete__content {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .suscribete h3 {
+
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    .suscribete form {
+
+        margin-top: 0;
+    }
+
+    /*----EMPODERATE----*/
+
+    .empoderar {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        height: 16em;
+        margin-top: 10em;
+    }
+
+    .empoderar__texto {
+
+        width: 24em;
+    }
+
+    .empoderar__texto h3 {
+
+        text-align: center;
+        color: var(--gris);
+    }
+
+    .empoderar__texto a {
+
+        display: block;
+        width: 9em;
+        text-align: center;
+        margin: 2em auto 0 auto;
+        font-weight: 300;
+        text-decoration: none;
+        padding: .6em;
+        border-radius: .3em;
+        color: var(--blanco);
+        font-size: .9em;
+        background: var(--azul);
+        transition: .3s;
+    }
+
+    .empoderar img {
+
+        position: absolute;
+        width: 100%;
+        max-width: 26em;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+    }
+}
